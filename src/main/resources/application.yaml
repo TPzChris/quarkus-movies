@@ -1,0 +1,11 @@
+quarkus:
+  datasource:
+    db-kind: mysql
+    username: root
+    password: sakila
+    jdbc:
+      url: jdbc:mysql://localhost:3306/sakila
+  hibernate-orm:
+    log:
+      sql: true
+    dialect: org.hibernate.dialect.MySQLDialect
